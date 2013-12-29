@@ -1,5 +1,5 @@
 public class SuperBass {
-    //run and hit play at the same time
+    //run and hit play at the same time for maximum accuracy.
     public static void main(String[] args) {
         //verse 1
         try {
