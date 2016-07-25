@@ -8,7 +8,7 @@ public class SuperBass {
         catch (InterruptedException ex)
         {
         }
-        System.out.println("This one is for the boys with the booming system") ;
+        System.out.println("This one is for the boys with the booming system");
         try {
             Thread.sleep(2000);
         }
