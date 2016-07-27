@@ -53,7 +53,7 @@ $ make run
 
 ## Authors
 
-* **Jacob McKesson** - *Main functionality* 
+* **Jacob McKesson** - *Main functionality aka. literally everything* 
 
 **Minor contributions by,**
 * [William Huang](https://github.com/whuang8)
@@ -61,4 +61,4 @@ $ make run
 
 ## License
 
-This project is licensed under the WTFPL License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the [WTFPL](http://www.wtfpl.net/) License - see the [LICENSE.md](LICENSE.md) file for details
