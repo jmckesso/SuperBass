@@ -1,6 +1,30 @@
+import java.io.*;
+import javax.sound.sampled.*;
+
 public class SuperBass {
-    //run and hit play at the same time for maximum accuracy.
+		
+		public static class Song implements Runnable {
+			@Override
+			public void run(){
+				try {
+					File file = new File("superbass.wav");
+					Clip clip = AudioSystem.getClip();
+					clip.open(AudioSystem.getAudioInputStream(file));
+					clip.start();
+					Thread.sleep(clip.getMicrosecondLength());
+				} catch (Exception e) {
+					System.err.println(e.getMessage());
+				}
+			}
+		}
+
+		public static void startSong() {
+			Thread songThread = new Thread(new Song());
+			songThread.start();
+		}
+
     public static void main(String[] args) {
+				startSong();
         //verse 1
         try {
             Thread.sleep(8400);
